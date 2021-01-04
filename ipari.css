@@ -1,0 +1,132 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: Verdana;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    padding: 1px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: all 0.7s ease-in-out;
+}
+
+body {
+    background: url('https://scontent.fbud4-1.fna.fbcdn.net/v/t1.15752-9/131307110_203156541431035_1358575182106428012_n.jpg?_nc_cat=105&ccb=2&_nc_sid=ae9488&_nc_ohc=TNG9NDRtepUAX9pPq2o&_nc_ht=scontent.fbud4-1.fna&oh=8aaa23bdba1c5d66d8cc87396992bd6a&oe=60003148') no-repeat center center fixed;
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: list-item;
+}
+
+.head {
+    display: table;
+    justify-content: center;
+    align-items: center;
+    width: 75%;    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+.profile-card {
+    background-color: rgba(250, 211, 82, 0.705);
+    width: 750px;
+    max-width: calc(100vw - 10px);
+    border-radius: 4px;
+    box-shadow: rgba(150, 85, 1, 0.5) 20px 20px 80px;
+    text-align: center;
+    border: 1px rgba(0, 0, 0, 0.5) solid;
+}
+
+.profile-image {
+    width: 750px;
+    margin-top: -40px;
+    align-items: center;
+}
+
+.links {
+    border-top: 1px solid rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    margin-bottom: -5px;
+    margin-top: 20px;
+}
+
+
+.about {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.content {
+    padding: 5% 5%;
+    width: 100%;
+}
+
+.links h2 {
+    padding-top: 15px;
+}
+
+.szakmak {    
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    text-align: left;
+}
+
+.italic {
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.head {
+    padding-bottom: 20px;
+}
+
+.szakmak a:link {
+    color:rgb(92, 43, 15);
+    
+}
+
+.szakmak a:visited {
+    color:rgb(53, 0, 0);
+}
+
+.szakmak a:hover {
+    color: rgb(143, 0, 0);
+}
+
+.szakmak a:active {
+    color: rgb(139, 1, 1);
+}
+
+
+a:link, a:visited, a:hover, a:active {
+    color:black;
+    text-decoration: none;
+}
